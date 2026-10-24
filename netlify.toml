@@ -1,0 +1,4 @@
+# The preview site only. The Studio itself is hosted by Sanity (npx sanity deploy).
+[build]
+  publish = "web"
+  command = ""
