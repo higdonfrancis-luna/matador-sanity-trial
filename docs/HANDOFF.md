@@ -9,5 +9,5 @@ Oct 24 2026: Nick doesn't like Storyblok and wanted to try Sanity. Adam approved
 - Deploys: `npx sanity deploy` with `SANITY_AUTH_TOKEN` set, run from a commit already pushed here.
 
 ## Open
-- The older 94 Matador documents have no schema in the Studio, so they don't show in it.
+- The older 82 Matador documents have no schema in the Studio, so they don't show in it.
 - No photos loaded yet (text only).
