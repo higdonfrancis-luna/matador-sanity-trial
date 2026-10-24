@@ -94,7 +94,7 @@ def main():
         data=body, method='POST',
         headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json'})
     with urllib.request.urlopen(req) as r:
-        print(r.status, [x['id'] for x in json.load(r)['results']])
+        print(r.status, [x.get('id') or x.get('documentId') for x in json.load(r)['results']])
 
 
 if __name__ == '__main__':
