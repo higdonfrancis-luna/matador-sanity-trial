@@ -37,19 +37,23 @@ Tests cover authorization and expiry, redirects, published/draft separation, ima
 | Endpoint | Purpose | Verified status |
 | --- | --- | --- |
 | `https://matador-sanity-trial.netlify.app/about-us/` | Published About Us trial | Deployed and visually checked on the live URL |
-| `https://matador-sanity-trial.netlify.app/studio/presentation` | Team visual editor | Studio deployed; `/studio/` returns HTTP 200; signed-in draft acceptance pending |
+| `https://matador-sanity-trial.netlify.app/studio/presentation` | Team visual editor | Signed-in Website editor and Structure tabs verified; draft preview awaits server configuration |
 | `https://matador-pilot.sanity.studio` | Existing standalone Studio | Intentionally unchanged until draft preview is ready |
 
-The deployed implementation is GitHub commit `c8c6df1423a9c465149bc0fda1ad0c1258d1565c`, with tree `a5deb1d395846481437cfaf9bf7cfb3da1d39f0d`. Netlify site ID is `efbe9cfe-43aa-4108-86c7-b518e7b9cf58`; verified deploy ID is `6add6de3430efbdd1e98e8b0`.
+The deployed implementation is GitHub commit `af9fe992b3e98759a4c403a682c30da395dbe83f`, with tree `857703b517b26aa716239db4cab834f273cbd17a`. Netlify site ID is `efbe9cfe-43aa-4108-86c7-b518e7b9cf58`; verified deploy ID is `6add6ecb32a73cdbdc04ce06`.
 
 Live checks confirmed the published-content API returns HTTP 200, `/studio/` returns HTTP 200, and an unauthenticated `/api/content?preview=1` request returns HTTP 401. Preview enable returns HTTP 503 because its server environment values are not configured. The live About Us page was inspected in a browser screenshot.
 
+Browser QA caught and fixed a blank hosted Studio caused by asset paths. The build now uses Sanity's `SANITY_STUDIO_BASEPATH` for `/studio/`, with generated icon paths corrected to the same prefix. The deployed Studio JavaScript returns HTTP 200 with `application/javascript`. GitHub sign-in completed, and the signed-in Studio displays **Website editor** and **Structure** tabs. The preview iframe reports **Draft preview is not configured**, as expected while the server variables are absent. The original Sanity-hosted Studio remains unchanged.
+
 **Permission remains pending to transmit and store the read-only Sanity preview token and independent session-signing secret in this trial's private Netlify environment settings through the browser.** No new account-wide Netlify CLI grant is needed. The connector can read the public project, but its environment-variable operation reports that the site/team does not exist, including for a read; it cannot access this NOOMA project's environment settings through the connected account. Do not describe draft preview as operational before server setup and end-to-end acceptance pass.
+
+The Netlify environment-variable form is prepared with Functions-only scope and secret protection. No credential values have been entered or saved; the scoped permission above is still pending.
 
 Remaining rollout checks:
 
 1. Obtain the scoped permission above, then configure `SANITY_API_READ_TOKEN` and an independent `SANITY_PREVIEW_SESSION_SECRET` in this trial's private server environment; confirm permitted Sanity origins.
-2. Test a signed-in draft edit, visual preview, publish, and an ordinary published-page visit. Complete desktop/mobile acceptance.
+2. Test signed-in text edits, image addition/replacement/removal, draft preview, publishing, and an ordinary published-page visit. Complete desktop/mobile acceptance.
 3. Once preview is ready, update the standalone Studio from the intended pushed revision and record the actual acceptance results here.
 
 ## Team editing workflow after rollout verification
