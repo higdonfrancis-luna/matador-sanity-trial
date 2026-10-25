@@ -14,7 +14,6 @@ export default defineConfig({
   title: 'Matador Sanity Trial',
   projectId: 'i2tdfchw',
   dataset: 'production',
-  basePath: process.env.SANITY_STUDIO_BASE_PATH || '/',
   plugins: [
     presentationTool({
       title: 'Website editor',
