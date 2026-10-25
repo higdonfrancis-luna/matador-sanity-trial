@@ -2,21 +2,23 @@
 
 A Sanity CMS trial for Adam and Nick using three existing Wyatt pages. About Us preserves the reference's main-content layout and connects its text and ten original images to Sanity. The attorney and practice-area pages remain simple generic content previews.
 
-**Implementation is complete; deployment, server preview configuration, and signed-in acceptance are pending.** The implementation checks recorded 28 passing tests, a passing TypeScript check, and a successful website/Studio build. See [the handoff](docs/HANDOFF.md) for current status and remaining work.
+**The public trial and same-origin Studio are deployed. Secure draft preview still needs server configuration and signed-in acceptance.** The implementation checks recorded 28 passing tests, a passing TypeScript check, and a successful website/Studio build. See [the handoff](docs/HANDOFF.md) for deployment evidence and remaining work.
 
-## Intended review links
+## Review links
 
 - [About Us](https://matador-sanity-trial.netlify.app/about-us/)
 - [Website editor](https://matador-sanity-trial.netlify.app/studio/presentation)
-- [Existing standalone Studio](https://matador-pilot.sanity.studio), with its update planned
+- [Existing standalone Studio](https://matador-pilot.sanity.studio), intentionally unchanged until draft preview is ready
 
-These are target URLs, not confirmation that this revision is deployed.
+The public About Us page has been visually checked, the published-content API returns HTTP 200, and `/studio/` returns HTTP 200. End-to-end signed-in draft editing is not yet verified.
 
 ## Team editing after rollout
 
 Sign into the Website editor with your own Sanity account, open About Us, and click a supported text or picture overlay to edit its field. Use **Pictures on this page** to replace or remove an original image and **Additional pictures** to append images. Review the draft, then click **Publish**. Published content is fetched at runtime, so content edits need no website build.
 
 Ordinary visits show published content. Draft preview requires a validated Studio session and the pending server configuration. Layout and schema changes go through this repository and require deployment.
+
+The remaining permission is to store a read-only Sanity preview token and an independent session-signing secret in this trial's private Netlify environment settings through the browser. No new account-wide Netlify CLI grant is needed.
 
 ## Development
 

@@ -32,24 +32,25 @@ npm run build
 
 Tests cover authorization and expiry, redirects, published/draft separation, image migration/removal/cropping, and keyed About Us edits. These results do not establish that the deployed signed-in editor works.
 
-## Deployment and configuration pending
+## Deployment verified; draft configuration pending
 
-| Intended endpoint | Purpose | Status for this implementation |
+| Endpoint | Purpose | Verified status |
 | --- | --- | --- |
-| `https://matador-sanity-trial.netlify.app/about-us/` | Published About Us trial | Deployment and live verification pending |
-| `https://matador-sanity-trial.netlify.app/studio/presentation` | Team visual editor | Deployment and authenticated browser verification pending |
-| `https://matador-pilot.sanity.studio` | Existing standalone Studio | Update planned; not yet verified |
+| `https://matador-sanity-trial.netlify.app/about-us/` | Published About Us trial | Deployed and visually checked on the live URL |
+| `https://matador-sanity-trial.netlify.app/studio/presentation` | Team visual editor | Studio deployed; `/studio/` returns HTTP 200; signed-in draft acceptance pending |
+| `https://matador-pilot.sanity.studio` | Existing standalone Studio | Intentionally unchanged until draft preview is ready |
 
-Public-site and Studio deployment can proceed through the already authorized workflow. **The secure draft hookup still needs the user's action-time approval at the Netlify CLI authorization grant**, which explicitly grants project creation/management. Server environment setup and an end-to-end draft editing test remain pending; do not describe draft preview as operational until they pass.
+The deployed implementation is GitHub commit `c8c6df1423a9c465149bc0fda1ad0c1258d1565c`, with tree `a5deb1d395846481437cfaf9bf7cfb3da1d39f0d`. Netlify site ID is `efbe9cfe-43aa-4108-86c7-b518e7b9cf58`; verified deploy ID is `6add6de3430efbdd1e98e8b0`.
+
+Live checks confirmed the published-content API returns HTTP 200, `/studio/` returns HTTP 200, and an unauthenticated `/api/content?preview=1` request returns HTTP 401. Preview enable returns HTTP 503 because its server environment values are not configured. The live About Us page was inspected in a browser screenshot.
+
+**Permission remains pending to transmit and store the read-only Sanity preview token and independent session-signing secret in this trial's private Netlify environment settings through the browser.** No new account-wide Netlify CLI grant is needed. The connector can read the public project, but its environment-variable operation reports that the site/team does not exist, including for a read; it cannot access this NOOMA project's environment settings through the connected account. Do not describe draft preview as operational before server setup and end-to-end acceptance pass.
 
 Remaining rollout checks:
 
-1. Verify the deployed revision, public About Us page, Studio, and Functions on their live URLs.
-2. Finish the approved server configuration for `SANITY_API_READ_TOKEN` and an independent `SANITY_PREVIEW_SESSION_SECRET`; confirm permitted Sanity origins.
-3. Test a signed-in draft edit, visual preview, publish, and an ordinary published-page visit. Verify desktop/mobile presentation.
-4. Update the standalone Studio from the intended pushed revision and record the deployment revision and actual acceptance results here.
-
-The target URLs and a successful local build are not deployment evidence.
+1. Obtain the scoped permission above, then configure `SANITY_API_READ_TOKEN` and an independent `SANITY_PREVIEW_SESSION_SECRET` in this trial's private server environment; confirm permitted Sanity origins.
+2. Test a signed-in draft edit, visual preview, publish, and an ordinary published-page visit. Complete desktop/mobile acceptance.
+3. Once preview is ready, update the standalone Studio from the intended pushed revision and record the actual acceptance results here.
 
 ## Team editing workflow after rollout verification
 
