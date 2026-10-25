@@ -1,0 +1,92 @@
+[
+  {
+    "name": "hero",
+    "title": "Hero background",
+    "source": "https://wyatt-netlify.netlify.app/assets/photos/arizona-desert.webp",
+    "localPath": "web/assets/wyatt/arizona-desert.webp",
+    "alt": "",
+    "width": 1920,
+    "height": 1280
+  },
+  {
+    "name": "storyPortrait",
+    "title": "Our story portrait",
+    "source": "https://wyatt-netlify.netlify.app/assets/photos/justin-wyatt-headshot.webp",
+    "localPath": "web/assets/wyatt/justin-wyatt-headshot.webp",
+    "alt": "Justin L. Wyatt",
+    "width": 597,
+    "height": 677
+  },
+  {
+    "name": "justinPortrait",
+    "title": "Meet Justin portrait",
+    "source": "https://wyatt-netlify.netlify.app/assets/photos/justin-wyatt-cutout.webp",
+    "localPath": "web/assets/wyatt/justin-wyatt-cutout.webp",
+    "alt": "Justin L. Wyatt",
+    "width": 611,
+    "height": 639
+  },
+  {
+    "name": "awardJustia",
+    "title": "Justia award",
+    "source": "https://wyatt-netlify.netlify.app/assets/photos/badge-justia.webp",
+    "localPath": "web/assets/wyatt/badge-justia.webp",
+    "alt": "Justia 10.0 Lawyer Rating",
+    "width": 90,
+    "height": 90
+  },
+  {
+    "name": "awardTop100",
+    "title": "Top 100 award",
+    "source": "https://wyatt-netlify.netlify.app/assets/photos/badge-top-100.webp",
+    "localPath": "web/assets/wyatt/badge-top-100.webp",
+    "alt": "The National Trial Lawyers Top 100",
+    "width": 91,
+    "height": 90
+  },
+  {
+    "name": "awardRisingStars",
+    "title": "Rising Stars award",
+    "source": "https://wyatt-netlify.netlify.app/assets/photos/badge-rising-stars.webp",
+    "localPath": "web/assets/wyatt/badge-rising-stars.webp",
+    "alt": "Super Lawyers Rising Stars",
+    "width": 106,
+    "height": 88
+  },
+  {
+    "name": "awardTop40",
+    "title": "Top 40 award",
+    "source": "https://wyatt-netlify.netlify.app/assets/photos/badge-top-40.webp",
+    "localPath": "web/assets/wyatt/badge-top-40.webp",
+    "alt": "The National Trial Lawyers Top 40 Under 40",
+    "width": 91,
+    "height": 90
+  },
+  {
+    "name": "awardAvvo",
+    "title": "Avvo award",
+    "source": "https://wyatt-netlify.netlify.app/assets/photos/badge-avvo.webp",
+    "localPath": "web/assets/wyatt/badge-avvo.webp",
+    "alt": "Avvo Clients' Choice Award",
+    "width": 128,
+    "height": 90
+  },
+  {
+    "name": "awardTrialLawyersUniversity",
+    "title": "Trial Lawyers University award",
+    "source": "https://wyatt-netlify.netlify.app/assets/photos/badge-lawyers-university.webp",
+    "localPath": "web/assets/wyatt/badge-lawyers-university.webp",
+    "alt": "Trial Lawyers University",
+    "width": 93,
+    "height": 90
+  },
+  {
+    "name": "awardExpertise",
+    "title": "Expertise award",
+    "source": "https://wyatt-netlify.netlify.app/assets/photos/badge-expertise.webp",
+    "localPath": "web/assets/wyatt/badge-expertise.webp",
+    "alt": "Expertise.com Best Car Accident Lawyers in Goodyear",
+    "width": 113,
+    "height": 90
+  }
+]

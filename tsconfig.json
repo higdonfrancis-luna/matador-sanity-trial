@@ -8,6 +8,7 @@
     "moduleResolution": "bundler",
     "jsx": "preserve",
     "skipLibCheck": true,
+    "types": ["node"],
     "isolatedModules": true
   },
   "include": ["**/*.ts", "**/*.tsx"],

@@ -1,0 +1,249 @@
+{
+  "headline": {
+    "text": "A Phoenix firm that treats you like a person.",
+    "tag": "h1",
+    "attrs": "",
+    "prefix": "",
+    "inner": "A Phoenix firm that<br><span class=\"b\">treats you like a person.</span>"
+  },
+  "fd3aaac067a3": {
+    "text": "For more than 10 years, Wyatt Injury Law has represented injured people across the Valley. Plaintiffs only. No fee unless we win.",
+    "tag": "p",
+    "attrs": " class=\"lede\"",
+    "prefix": "",
+    "inner": "For more than 10 years, Wyatt Injury Law has represented injured people across the Valley. Plaintiffs only. No fee unless we win."
+  },
+  "ebd282cc6685": {
+    "text": "Our story",
+    "tag": "p",
+    "attrs": " class=\"eyebrow\"",
+    "prefix": "<svg class=\"hex\" width=\"12\" height=\"13.79\" viewBox=\"0 0 87 100\" aria-hidden=\"true\"><polygon points=\"43.5,0 87,25 87,75 43.5,100 0,75 0,25\" fill=\"#F26B1D\"></polygon></svg>",
+    "inner": "<svg class=\"hex\" width=\"12\" height=\"13.79\" viewBox=\"0 0 87 100\" aria-hidden=\"true\"><polygon points=\"43.5,0 87,25 87,75 43.5,100 0,75 0,25\" fill=\"#F26B1D\"></polygon></svg>Our story"
+  },
+  "8e6660038104": {
+    "text": "Built to fight for injured Arizonans.",
+    "tag": "h2",
+    "attrs": " class=\"h-sec\"",
+    "prefix": "",
+    "inner": "Built to fight for <span class=\"b\">injured Arizonans.</span>"
+  },
+  "96582511b4b5": {
+    "text": "Attorney Justin L. Wyatt is the founder and managing attorney of Wyatt Injury Law.",
+    "tag": "p",
+    "attrs": "",
+    "prefix": "",
+    "inner": "Attorney Justin L. Wyatt is the founder and managing attorney of Wyatt Injury Law."
+  },
+  "9dc278d43b93": {
+    "text": "He focuses 100% of his practice on prosecuting serious personal injury and death claims that involve auto collisions, pedestrian injuries, dog bite injuries, product liability injuries and wrongful death, among others. He is admitted to practice in Arizona and is a member of the State Bar of Arizona. He is also admitted to practice in the United States District Courts, District of Arizona, the Ninth Circuit Court of Appeals, as well as the Sixth Circuit Court of Appeals.",
+    "tag": "p",
+    "attrs": "",
+    "prefix": "",
+    "inner": "He focuses 100% of his practice on prosecuting serious personal injury and death claims that involve auto collisions, pedestrian injuries, dog bite injuries, product liability injuries and wrongful death, among others. He is admitted to practice in Arizona and is a member of the State Bar of Arizona. He is also admitted to practice in the United States District Courts, District of Arizona, the Ninth Circuit Court of Appeals, as well as the Sixth Circuit Court of Appeals."
+  },
+  "755b25955ca4": {
+    "text": "How we work",
+    "tag": "p",
+    "attrs": " class=\"eyebrow\"",
+    "prefix": "<svg class=\"hex\" width=\"12\" height=\"13.79\" viewBox=\"0 0 87 100\" aria-hidden=\"true\"><polygon points=\"43.5,0 87,25 87,75 43.5,100 0,75 0,25\" fill=\"#F26B1D\"></polygon></svg>",
+    "inner": "<svg class=\"hex\" width=\"12\" height=\"13.79\" viewBox=\"0 0 87 100\" aria-hidden=\"true\"><polygon points=\"43.5,0 87,25 87,75 43.5,100 0,75 0,25\" fill=\"#F26B1D\"></polygon></svg>How we work"
+  },
+  "7af27b067473": {
+    "text": "Three promises we make every client.",
+    "tag": "h2",
+    "attrs": " class=\"h-sec\"",
+    "prefix": "",
+    "inner": "Three promises <span class=\"b\">we make every client.</span>"
+  },
+  "1fcd1becee2a": {
+    "text": "You’ll know your lawyer.",
+    "tag": "p",
+    "attrs": " class=\"promise-title\"",
+    "prefix": "",
+    "inner": "You’ll know your lawyer."
+  },
+  "325251d31d9d": {
+    "text": "Justin reviews every new case himself, and you’ll have a direct line to him for the life of your case.",
+    "tag": "p",
+    "attrs": "",
+    "prefix": "",
+    "inner": "Justin reviews every new case himself, and you’ll have a direct line to him for the life of your case."
+  },
+  "711caa62e1fa": {
+    "text": "You won’t pay unless we win.",
+    "tag": "p",
+    "attrs": " class=\"promise-title\"",
+    "prefix": "",
+    "inner": "You won’t pay unless we win."
+  },
+  "ec1dedc83e75": {
+    "text": "No retainer, no hourly bills. Our fee comes from the recovery, and only if there is one.",
+    "tag": "p",
+    "attrs": "",
+    "prefix": "",
+    "inner": "No retainer, no hourly bills. Our fee comes from the recovery, and only if there is one."
+  },
+  "2857bb32c69c": {
+    "text": "We’ll be ready for trial.",
+    "tag": "p",
+    "attrs": " class=\"promise-title\"",
+    "prefix": "",
+    "inner": "We’ll be ready for trial."
+  },
+  "7213a1c6509f": {
+    "text": "We build every case with the evidence, experts and records to take it to a jury if needed.",
+    "tag": "p",
+    "attrs": "",
+    "prefix": "",
+    "inner": "We build every case with the evidence, experts and records to take it to a jury if needed."
+  },
+  "1497c466feaf": {
+    "text": "Years of experience",
+    "tag": "p",
+    "attrs": " class=\"stat-title\"",
+    "prefix": "",
+    "inner": "Years of experience"
+  },
+  "b676a9d34d7e": {
+    "text": "Fighting for injured Arizonans",
+    "tag": "p",
+    "attrs": " class=\"stat-text\"",
+    "prefix": "",
+    "inner": "Fighting for injured Arizonans"
+  },
+  "97e5739f564f": {
+    "text": "No recovery, no fee",
+    "tag": "p",
+    "attrs": " class=\"stat-title\"",
+    "prefix": "",
+    "inner": "No recovery, no fee"
+  },
+  "a92ee1133399": {
+    "text": "Every case is on contingency",
+    "tag": "p",
+    "attrs": " class=\"stat-text\"",
+    "prefix": "",
+    "inner": "Every case is on contingency"
+  },
+  "3218b93fcfa2": {
+    "text": "Live call answering",
+    "tag": "p",
+    "attrs": " class=\"stat-title\"",
+    "prefix": "",
+    "inner": "Live call answering"
+  },
+  "0534e372cd7f": {
+    "text": "A real person answers",
+    "tag": "p",
+    "attrs": " class=\"stat-text\"",
+    "prefix": "",
+    "inner": "A real person answers"
+  },
+  "8971fe1efc32": {
+    "text": "Your lawyer",
+    "tag": "p",
+    "attrs": " class=\"eyebrow\"",
+    "prefix": "<svg class=\"hex\" width=\"12\" height=\"13.79\" viewBox=\"0 0 87 100\" aria-hidden=\"true\"><polygon points=\"43.5,0 87,25 87,75 43.5,100 0,75 0,25\" fill=\"#F26B1D\"></polygon></svg>",
+    "inner": "<svg class=\"hex\" width=\"12\" height=\"13.79\" viewBox=\"0 0 87 100\" aria-hidden=\"true\"><polygon points=\"43.5,0 87,25 87,75 43.5,100 0,75 0,25\" fill=\"#F26B1D\"></polygon></svg>Your lawyer"
+  },
+  "e9d8142c51a6": {
+    "text": "Meet Justin L. Wyatt.",
+    "tag": "h2",
+    "attrs": " class=\"h-sec\"",
+    "prefix": "",
+    "inner": "Meet <span class=\"b\">Justin L. Wyatt.</span>"
+  },
+  "fc1575416991": {
+    "text": "Justin L. Wyatt is a seasoned trial lawyer, and an active member of the Arizona State Bar. He is also an active member of the Maricopa County Bar Association, Arizona Association for Justice, Arizona Trial Lawyers Association and American Association for Justice. Justin L. Wyatt also regularly volunteers and contributes to various non-profit organizations and charities in the area.",
+    "tag": "p",
+    "attrs": "",
+    "prefix": "",
+    "inner": "Justin L. Wyatt is a seasoned trial lawyer, and an active member of the Arizona State Bar. He is also an active member of the Maricopa County Bar Association, Arizona Association for Justice, Arizona Trial Lawyers Association and American Association for Justice.  Justin L. Wyatt also regularly volunteers and contributes to various non-profit organizations and charities in the area."
+  },
+  "7aa1d72e434e": {
+    "text": "When he’s not working, Justin is enjoying life with his beautiful wife and their three busy children. They enjoy outdoor adventures, travel, sports, and BBQ together.",
+    "tag": "p",
+    "attrs": "",
+    "prefix": "",
+    "inner": "When he’s not working, Justin is enjoying life with his beautiful wife and their three busy children. They enjoy outdoor adventures, travel, sports, and BBQ together."
+  },
+  "dff1c0a283ec": {
+    "text": "Our team",
+    "tag": "p",
+    "attrs": " class=\"eyebrow\"",
+    "prefix": "<svg class=\"hex\" width=\"12\" height=\"13.79\" viewBox=\"0 0 87 100\" aria-hidden=\"true\"><polygon points=\"43.5,0 87,25 87,75 43.5,100 0,75 0,25\" fill=\"#F26B1D\"></polygon></svg>",
+    "inner": "<svg class=\"hex\" width=\"12\" height=\"13.79\" viewBox=\"0 0 87 100\" aria-hidden=\"true\"><polygon points=\"43.5,0 87,25 87,75 43.5,100 0,75 0,25\" fill=\"#F26B1D\"></polygon></svg>Our team"
+  },
+  "5fb212e8807d": {
+    "text": "A team with experience & vision",
+    "tag": "h2",
+    "attrs": " class=\"h-sec\"",
+    "prefix": "",
+    "inner": "A team with <span class=\"b\">experience &amp; vision</span>"
+  },
+  "1eb9c631d565": {
+    "text": "Whether your case is a multi-million-dollar case or a fender bender, if you’ve been injured, Justin and his team want to help you recover from your injuries and obtain the best resolution possible for your claim.",
+    "tag": "p",
+    "attrs": " class=\"sec-intro\"",
+    "prefix": "",
+    "inner": "Whether your case is a multi-million-dollar case or a fender bender, if you’ve been injured, Justin and his team want to help you recover from your injuries and obtain the best resolution possible for your claim."
+  },
+  "62fc3806c8f2": {
+    "text": "Justin L. Wyatt Founder/Managing Attorney",
+    "tag": "span",
+    "attrs": "",
+    "prefix": "",
+    "inner": "<b>Justin L. Wyatt</b><span>Founder/Managing Attorney</span>"
+  },
+  "571c7f6fad34": {
+    "text": "Kelli W. Office Manager",
+    "tag": "span",
+    "attrs": "",
+    "prefix": "",
+    "inner": "<b>Kelli W.</b><span>Office Manager</span>"
+  },
+  "a23facc50ae2": {
+    "text": "Jennifer G. Case Manager",
+    "tag": "span",
+    "attrs": "",
+    "prefix": "",
+    "inner": "<b>Jennifer G.</b><span>Case Manager</span>"
+  },
+  "a60a5b1e0860": {
+    "text": "Recognition",
+    "tag": "p",
+    "attrs": " class=\"eyebrow\"",
+    "prefix": "<svg class=\"hex\" width=\"12\" height=\"13.79\" viewBox=\"0 0 87 100\" aria-hidden=\"true\"><polygon points=\"43.5,0 87,25 87,75 43.5,100 0,75 0,25\" fill=\"#F26B1D\"></polygon></svg>",
+    "inner": "<svg class=\"hex\" width=\"12\" height=\"13.79\" viewBox=\"0 0 87 100\" aria-hidden=\"true\"><polygon points=\"43.5,0 87,25 87,75 43.5,100 0,75 0,25\" fill=\"#F26B1D\"></polygon></svg>Recognition"
+  },
+  "image:hero": {
+    "html": "<img width=\"1920\" height=\"1280\" src=\"/assets/wyatt/arizona-desert.webp\" srcset=\"/assets/wyatt/arizona-desert-960.webp 960w, /assets/wyatt/arizona-desert-1280.webp 1280w, /assets/wyatt/arizona-desert.webp 1920w\" sizes=\"100vw\" alt=\"\" decoding=\"async\" fetchpriority=\"high\">"
+  },
+  "image:storyPortrait": {
+    "html": "<img width=\"597\" height=\"677\" src=\"/assets/wyatt/justin-wyatt-headshot.webp\" alt=\"Justin L. Wyatt\" decoding=\"async\" loading=\"lazy\">"
+  },
+  "image:justinPortrait": {
+    "html": "<img width=\"611\" height=\"639\" src=\"/assets/wyatt/justin-wyatt-cutout.webp\" alt=\"Justin L. Wyatt\" decoding=\"async\" loading=\"lazy\">"
+  },
+  "image:awardJustia": {
+    "html": "<img width=\"90\" height=\"90\" src=\"/assets/wyatt/badge-justia.webp\" alt=\"Justia 10.0 Lawyer Rating\" decoding=\"async\" loading=\"lazy\">"
+  },
+  "image:awardTop100": {
+    "html": "<img width=\"91\" height=\"90\" src=\"/assets/wyatt/badge-top-100.webp\" alt=\"The National Trial Lawyers Top 100\" decoding=\"async\" loading=\"lazy\">"
+  },
+  "image:awardRisingStars": {
+    "html": "<img width=\"106\" height=\"88\" src=\"/assets/wyatt/badge-rising-stars.webp\" alt=\"Super Lawyers Rising Stars\" decoding=\"async\" loading=\"lazy\">"
+  },
+  "image:awardTop40": {
+    "html": "<img width=\"91\" height=\"90\" src=\"/assets/wyatt/badge-top-40.webp\" alt=\"The National Trial Lawyers Top 40 Under 40\" decoding=\"async\" loading=\"lazy\">"
+  },
+  "image:awardAvvo": {
+    "html": "<img width=\"128\" height=\"90\" src=\"/assets/wyatt/badge-avvo.webp\" alt=\"Avvo Clients' Choice Award\" decoding=\"async\" loading=\"lazy\">"
+  },
+  "image:awardTrialLawyersUniversity": {
+    "html": "<img width=\"93\" height=\"90\" src=\"/assets/wyatt/badge-lawyers-university.webp\" alt=\"Trial Lawyers University\" decoding=\"async\" loading=\"lazy\">"
+  },
+  "image:awardExpertise": {
+    "html": "<img width=\"113\" height=\"90\" src=\"/assets/wyatt/badge-expertise.webp\" alt=\"Expertise.com Best Car Accident Lawyers in Goodyear\" decoding=\"async\" loading=\"lazy\">"
+  }
+}

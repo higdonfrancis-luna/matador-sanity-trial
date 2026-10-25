@@ -10,9 +10,10 @@
 <body>
 <header class="bar">
   <a href="/" class="home">Sanity Trial Preview</a>
-  <span class="note">Shows published content from the Matador Pilot Studio. Publish, then refresh.</span>
+  <span class="note" id="preview-status" role="status">Loading content…</span>
+  <a href="/studio/presentation" id="editor-link">Edit website</a>
 </header>
 <main id="app"><p class="muted">Loading…</p></main>
-<script src="/app.js"></script>
+<script type="module" src="/app.js"></script>
 </body>
 </html>

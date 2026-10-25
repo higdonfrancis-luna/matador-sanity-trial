@@ -3,3 +3,7 @@ dist/
 .sanity/
 .env
 *.token
+.env.*
+!.env.example
+.netlify/
+.preview-published.json

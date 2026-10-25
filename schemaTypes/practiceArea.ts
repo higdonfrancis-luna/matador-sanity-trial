@@ -1,4 +1,5 @@
 import {defineField, defineType} from 'sanity'
+import {heroImage, pageImages} from './pictures'
 
 export const practiceArea = defineType({
   name: 'practiceArea',
@@ -9,7 +10,9 @@ export const practiceArea = defineType({
     defineField({name: 'slug', type: 'slug', options: {source: 'title'}, validation: (r) => r.required()}),
     defineField({name: 'headline', title: 'Main heading (H1)', type: 'string'}),
     defineField({name: 'intro', title: 'Intro', type: 'text', rows: 4}),
+    heroImage,
     defineField({name: 'body', type: 'body'}),
+    pageImages,
     defineField({name: 'seo', type: 'seo'}),
   ],
 })
